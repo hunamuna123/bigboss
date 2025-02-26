@@ -20,6 +20,7 @@
             </div>
           </div>
           <div>
+
             
             <label for="text" class="block text-sm font-medium text-white">Фамилия</label>
             <div class="relative mt-1">
