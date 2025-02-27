@@ -15,13 +15,14 @@
         </div>
       </div>
     </div>
+    
   </template>
 
 <script>
 export default {
   data() {
     return {
-      currentLayout: "home",
+      currentLayout: "book",
     };
   },
   methods: {
