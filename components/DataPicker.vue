@@ -46,7 +46,6 @@ const attrs = ref([
   color: white;
   border: 1px solid #3f3f3f;
 }
-
 :deep(.vc-focus) {
   color: white!important;
 
@@ -67,7 +66,7 @@ const attrs = ref([
   color: white;
 }
 :deep(.vc-weekday) {
-  color: white;
+  color: rgb(170, 167, 167);
 }
 :deep(.vc-arrow:hover) {
     background-color: #3b3b3b;
