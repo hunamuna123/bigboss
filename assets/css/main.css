@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import 'vanilla-calendar-pro/styles/index.css';
 
 body, html {
     background-color: #171717;
