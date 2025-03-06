@@ -6,7 +6,7 @@
     </div>
     <div class="flex flex-col h-full ">
       <SelectMonth/>
-      <div class="flex justify-center items-end mb-5">
+      <!-- <div class="flex justify-center items-end mb-5">
         <div class="grid justify-center sm:flex sm:justify-between sm:items-center gap-8">
           <nav class="flex items-center gap-x-3" aria-label="Pagination">
             <button
@@ -42,6 +42,6 @@
             </button>
           </nav>
         </div>
-      </div>
+      </div> -->
     </div>
   </template>
