@@ -37,11 +37,21 @@ const attrs = ref([
   padding: 10px;
   border: 1px solid #404040;
 }
+:deep(.vc-nav-item:hover) {
+  background-color: #363535 !important;
+}
+:deep(.vc-nav-item:hover) {
+  background-color: #363535 !important;
+}
+:deep(.is-active) {
+  background-color: #363535 !important;
+}
 :deep(.vc-popover-content ) {
-
+  background-color: #404040 !important;
   color: white;
   border: 1px solid #3f3f3f;
 }
+
 /* Стилизация заголовка */
 :deep(.vc-focus) {
   color: white!important;
