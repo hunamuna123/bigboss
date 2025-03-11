@@ -1,6 +1,5 @@
 <template>
 <div class="max-w-sm">
-  <!-- SearchBox -->
   <div class="relative" data-hs-combo-box='{
     "groupingType": "default",
     "isOpenOnFocus": true,
@@ -18,14 +17,10 @@
       </div>
       <input class="py-2.5 py-3 ps-10 pe-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none" type="text" role="combobox" aria-expanded="false" placeholder="Type a name" value="" data-hs-combo-box-input="">
     </div>
-
-    <!-- SearchBox Dropdown -->
     <div class="absolute z-50 w-full bg-white border border-gray-200 rounded-lg" style="display: none;" data-hs-combo-box-output="">
       <div class="max-h-72 rounded-b-lg overflow-hidden overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300" data-hs-combo-box-output-items-wrapper=""></div>
     </div>
-    <!-- End SearchBox Dropdown -->
   </div>
-  <!-- End SearchBox -->
 </div>
 </template>
 <script setup>
@@ -37,3 +32,26 @@ onMounted(() => {
   }
 })
 </script>
+
+<style>
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.custom-scrollbar::-webkit-scrollbar-button {
+  display: none;
+}
+</style>
