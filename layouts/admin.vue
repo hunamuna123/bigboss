@@ -3,10 +3,10 @@
         <h1 class="text-white text-xl font-semibold">Отметить отсутствующих</h1>
     </div>
     <div class="flex flex-col py-4 w-full transition-opacity   ">
-        <div class="p-2 rounded-xl w-full">
+        <div class=" rounded-xl w-full">
             <div class="flex flex-col w-full">
-                <div class="-m-1.5 w-full">
-                    <div class="p-1.5 min-w-full inline-block  w-full">
+                <div class=" w-full">
+                    <div class=" min-w-full inline-block  w-full">
                         <div class="border border-neutral-700 rounded-lg  w-full">
                             <div class="max-h-auto overflow-y-auto custom-scrollbar w-full">
                                 <table :class="{ 'opacity-50 pointer-events-none': isConfirmed }" class="min-h-full divide-y divide-gray-200 w-full">
